@@ -1,0 +1,22 @@
+
+<ejs-breadcrumb (beforeItemRender)="disableBreadcrumbItem($event)">
+  <e-breadcrumb-items>
+    <e-breadcrumb-item text="Program Files"
+    iconCss="e-bicons e-folder"></e-breadcrumb-item>
+    <e-breadcrumb-item text="Commom Files"
+    iconCss="e-bicons e-folder"></e-breadcrumb-item>
+    <e-breadcrumb-item text="Services"
+    iconCss="e-bicons e-folder"></e-breadcrumb-item>
+    <e-breadcrumb-item text="Config.json"
+    iconCss="e-bicons e-file"></e-breadcrumb-item>
+  </e-breadcrumb-items>
+<ng-template #itemTemplate let-dataSource="">
+  <ejs-chiplist>
+    <e-chips>
+      <e-chip text={{dataSource.text}}>
+      </e-chip>
+    </e-chips>
+  </ejs-chiplist>
+</ng-template>
+
+</ejs-breadcrumb>
