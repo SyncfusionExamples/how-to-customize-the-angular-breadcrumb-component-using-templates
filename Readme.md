@@ -1,6 +1,5 @@
 # How to Customize the Angular Breadcrumb Component Using Templates
 
-**Repository Description**  
 This repository contains a quick‑start Angular sample that demonstrates how to customize the Syncfusion Angular Breadcrumb component using templates. It provides examples for adding icons, changing icon positions, and disabling breadcrumb items in an Angular application.
 
 A quick‑start Angular project that shows how easily you can customize the Syncfusion Angular Breadcrumb component using templates in an Angular app. This project also includes a code snippet to add icons, change their position, and disable breadcrumb items.
